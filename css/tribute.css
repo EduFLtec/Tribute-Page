@@ -1,0 +1,85 @@
+/*setting default for accessibility and conversion*/
+html {
+  font-size: 62.5%;
+}
+
+main {
+  font-family:'Linux Libertine','Georgia','Times', sans-serif;
+  background-color: #f3f3d6;
+}
+
+/*slide container*/
+.slidebox {
+  max-width: 70rem;
+  display: block;
+  margin: auto;
+  padding: 1.5rem, 1.5rem;
+}
+
+img {
+  max-width: 90rem;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+}
+
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+em{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: 2rem;
+}
+
+/*tribute info card*/
+#tribute-info{
+  margin: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 1rem;
+  background-color: khaki;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+a {
+  font-size: 2em;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+}
+
+
+/* On smaller screens, decrease text size */
+@media screen and (min-width: 600px) {
+  .text {font-size: 1.5em;}
+}
+
